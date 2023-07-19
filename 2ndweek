@@ -1,0 +1,5 @@
+javascript 언어체계를 활용해 node.js의 기능 구현
+웹페이지를 동적으로 제어 가능하게 만듦
+자바스크립트의 기본문법은 c언어와 거의 동일한 듯
+array, while문, if문 등
+변수를 선언할 때 var, let, const 사용 가능
