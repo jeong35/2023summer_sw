@@ -16,3 +16,5 @@ points:
 player["name"]같은 방식도 되는 듯
 object 안의 원소 변경은 가능(구조체의 틀만 유지하고 있다면) ex) object를 문자열로 수정한다든가의 일은 불가능
 object에 새로운 원소를 넣고 싶다면 그냥 선언하면 된다.
+object 안에서 함수를 선언할 때는
+functions sayHello(){}가 아니고 sayHello: function(){}의 형식을 따른다.
