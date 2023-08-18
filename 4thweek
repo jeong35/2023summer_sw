@@ -6,3 +6,4 @@ prompt(message, default) - 팝업창으로 메세지를 띄우고 사용자에�
 typeof - 변수의 타입을 확인해서 리턴함.
 parseInt(string, number) - 문자열을 숫자로 타입 변경.
 inNaN() - 괄호 안의 변수가 숫자타입인지 boolean으로 리턴. true - 숫자X, false - 숫자
+document.getElementByID() - HTML에서 괄호 안의 id를 가진 것의 원소를 불러옴.
