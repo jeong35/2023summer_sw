@@ -1,0 +1,8 @@
+[자바스크립트 내장함수들]
+console.log() - 페이지의 콘솔창에 괄호 안에 있는 내용을 띄운다.
+alert() - 페이지에 팝업창 띄우기
+array.push() - 배열에 원소 추가
+prompt(message, default) - 팝업창으로 메세지를 띄우고 사용자에게 값을 받음. 받은 값을 리턴. 자바스크립트를 일시정지 시킴.
+typeof - 변수의 타입을 확인해서 리턴함.
+parseInt(string, number) - 문자열을 숫자로 타입 변경.
+inNaN() - 괄호 안의 변수가 숫자타입인지 boolean으로 리턴. true - 숫자X, false - 숫자
