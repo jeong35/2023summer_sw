@@ -1,0 +1,22 @@
+<클릭하면 글자 색깔이 파란색으로 바뀌는 코드>
+const title = document.querySelector("div.hello:first-child h1");
+
+function handleTitleClick() {
+title.style.color = "blue";
+}
+
+
+title.addEventListener("click", handleTitleClick);
+
+
+<클릭하면 글자 색깔이 랜덤으로 바뀌는 코드>
+const title = document.querySelector("div h1");
+
+function handleTitleClick(){
+const ranColor = ["blue","red","green","yellow","black"];
+
+let num = Math.floor(Math.random() * ranColor.length);
+title.style.color = ranColor[num];
+}
+
+title.addEventListener("click",handleTitleClick);
